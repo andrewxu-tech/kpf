@@ -1,4 +1,28 @@
-h1 {
-  border: 2px solid red; }
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+main {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.selectable-bubble-wrapper {
+  display: inline-block;
+  margin: 50px; }
+  .selectable-bubble-wrapper .bubble-text {
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    height: 150px;
+    display: block;
+    width: 300px;
+    color: blue; }
+  .selectable-bubble-wrapper .selectable-bubble-circle {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -100px; }
 
 /*# sourceMappingURL=style.css.map */
